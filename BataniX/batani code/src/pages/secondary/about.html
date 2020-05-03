@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="Batani LLC" content="Symmetric-Dynamite">
-    <title>Contact | Batani</title>
+    <meta name="Batani LLC" content="Symmetric Dynamite">
+    <title>About | Batani</title>
     <!-- Preloader -->
     <style>
         @keyframes hidePreloader {
@@ -58,7 +58,7 @@
     <!-- Favicon -->
     <link rel="icon" href="" type="image/png">
     <!-- Page CSS -->
-    <link rel="stylesheet" href="../../assets/libs/animate.css/animate.min.css">
+    <link rel="stylesheet" href="../../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="../../assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
     <!-- Quick CSS -->
@@ -73,12 +73,12 @@
         </div>
     </div>
     <!-- Header -->
-    <header class="" id="header-main">
+    <header class="header-transparent" id="header-main">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg navbar-light" id="navbar-main">
+        <nav class="navbar navbar-main navbar-expand-lg navbar-dark bg-dark" id="navbar-main">
             <div class="container">
                 <!-- Brand -->
-                <a class="navbar-brand" href="../../pages/landing/agency.html">
+                <a class="navbar-brand" href="../../pages/landings/index.html">
                     <img alt="Logo" src="" id="navbar-logo">
                 </a>
                 <!-- Toggler -->
@@ -93,8 +93,8 @@
                             <i data-feather="x"></i>
                         </button>
                     </div>
-                       <!-- Main navigation -->
-                       <ul class="navbar-nav ml-lg-auto">
+                     <!-- Main navigation -->
+                    <ul class="navbar-nav ml-lg-auto">
                         <!-- About -->
                         <li class="nav-item nav-item-spaced d-none d-lg-block">
                             <a class="nav-link" href="../../pages/secondary/about.html">
@@ -180,48 +180,33 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </header> 
     <!-- Main content -->
-    <section class="slice py-6 pt-lg-7 pb-lg-8 bg-gradient-primary">
+    <section class="slice py-8 bg-dark bg-cover bg-size--cover" style="background-image: url(../../assets/img/backgrounds/img-1.jpg);">
+        <!-- Mask -->
+        <span class="mask bg-gradient-dark opacity-9"></span>
         <!-- Container -->
-        <div class="container d-flex align-items-center text-center text-lg-left">
-            <div class="col px-0">
-                <div class="row row-grid align-items-center">
-                    <div class="col-lg-6">
-                        <!-- Heading -->
-                        <h1 class="h1 text-white text-center text-lg-left my-4">
-                            Send us a <strong> message!</strong> 
-                        <!-- Text -->
-                        <p class="lead text-white text-center text-lg-left opacity-8">
-                            Whether you have a feature request or would like to know more about our product, our staff is always ready to help.
-                        </p>
-                        <!-- Buttons -->
-                        <div class="mt-5 text-center text-lg-left">
-                            <a href="#sct-form-contact" data-scroll-to class="btn btn-white btn-lg btn-icon">
-                                <span class="btn-inner--icon">
-                                    <i data-feather="edit-2"></i>
-                                </span>
-                                <span class="btn-inner--text">Write us a message</span>
-                            </a>
-                        </div>
-                        <!-- Clients -->
-                        <div class="d-flex align-items-center justify-content-center justify-content-lg-left mt-5">
-                            <div class="col-auto text-sm text-white pl-0 pr-4">Trusted by:</div>
-                            <div class="client-group col">
-                                <div class="row">
-                                    <div class="client col-3 py-3">
-                                        <img alt="Image placeholder" src="../../assets/img/clients/svg/google-gray.svg">
-                                    </div>
-                                    <div class="client col-3 py-3">
-                                        <img alt="Image placeholder" src="../../assets/img/clients/svg/spotify-gray.svg">
-                                    </div>
-                                    <div class="client col-3 py-3">
-                                        <img alt="Image placeholder" src="../../assets/img/clients/svg/airbnb-gray.svg">
-                                    </div>
-                                    <div class="client col-3 py-3">
-                                        <img alt="Image placeholder" src="../../assets/img/clients/svg/paypal-gray.svg">
-                                    </div>
-                                </div>
+        <div data-offset-top="#navbar-main">
+            <div class="container d-flex align-items-center text-center text-lg-left py-5">
+                <div class="col px-0">
+                    <div class="row row-grid align-items-center">
+                        <div class="col-lg-8 text-center text-lg-left">
+                            <!-- Heading -->
+                            <h1 class="text-white mb-4">
+                                Let's Decentralize Real Estate together!
+                            </h1>
+                            <!-- Text -->
+                            <p class="lead text-white opacity-8">
+                                Nobody should have to pay 5% to their realtor, engage in blind bidding, deal with colluding real estate agents, or fraudulent titles. 
+                            </p>
+                            <!-- Buttons -->
+                            <div class="mt-5">
+                                <a href="#" class="btn btn-warning btn-lg btn-icon">
+                                    <span class="btn-inner--icon">
+                                        <i data-feather="edit-3"></i>
+                                    </span>
+                                    <span class="btn-inner--text">Join us</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -235,19 +220,126 @@
             </svg>
         </div>
     </section>
-    <section class="section-half-rounded">
-        <div class="jumbotron section-inner left-0 rounded-bottom-right bg-section-secondary overflow-hidden col-lg-11"></div>
-        <div class="container text-center text-lg-left">
-            <!-- Title -->
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <span class="badge badge-primary badge-pill">Support team</span>
-                    <h5 class="h5 lh-180 mt-4 mb-6">Our support team aims to respond to messages within 24 hours.</h5>
+    <section class="slice slice-lg">
+        <div class="container">
+            <span class="badge badge-primary badge-pill">Our vision</span>
+            <div class="row mt-4">
+                <div class="col-lg-6 pr-lg-5">
+                    <p class="h5 lh-180 mb-3">
+                        From searching properties, to scheduling appointments, to signing contracts, 
+                        we aim to reduce complexity and increase effiency, while simultaneously increasing transparency and security.  
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="lead lh-180">
+                        We are a small team of entreprenuers who want to change the way people transact. With the advent of blockchain technology, and the immutability of smart contracts, we no longer need the traditional real estate company.
+                        
+                    </p>
+                    <p class="lead lh-180">
+                        When real estate companies markup the price, renters and buyers always end up paying more, and sellers often get less. By removing the middle-men we can capture additional value for both buyers and sellers.
+                    </p>
                 </div>
             </div>
-            <!-- Team -->
+        </div>
+    </section>
+    <section class="slice slice-lg">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <div class="col-lg-5 col-6">
+                    <img src="../../assets/img/theme/light/img-v-4.jpg" alt="Image" class="rounded-lg img-fluid" />
+                    <div class="text-right mt-4">
+                        <img src="../../assets/img/theme/light/img-1-1000x1000.jpg" alt="Image" class="rounded-lg img-fluid w-50" />
+                    </div>
+                </div>
+                <div class="col-lg-7 col-6">
+                    <img src="../../assets/img/theme/light/img-1-1000x800.jpg" alt="Image" class="rounded-lg img-fluid w-75" />
+                    <div class="text-right mt-4">
+                        <img src="../../assets/img/theme/light/img-2-1000x800.jpg" alt="Image" class="rounded-lg img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slice slice-lg pt-10 bg-primary">
+        <!-- SVG separator -->
+        <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
+            <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class="">
+                <polygon points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+        </div>
+        <!-- Container -->
+        <div class="container">
+            <div class="row row-grid">
+                <div class="col-lg-8">
+                    <!-- Badge -->
+                    <span class="badge badge-warning badge-pill">Get Started</span>
+                    <!-- Title -->
+                    <h2 class="my-4 text-white">Search Properties</h2>
+                    <!-- Text -->
+                    <p class="lead text-white lh-190">
+                        Your perfect home is waiting for you. Browse thousands of properties worldwide, negotiate terms and prices, sign your lease online, and communicate with your landlord right on your laptop.
+                    </p>
+                </div>
+            </div>
+            <!-- Milestones -->
+            <div class="row mt-6">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                                <div class="p-4 text-center text-sm-left">
+                                    <h3 class="mb-0">
+                                        <span class="counter" data-from="0" data-to="3" data-speed="3000" data-refresh-interval="200"></span>
+                                        <span class="counter-extra">m</span>
+                                    </h3>
+                                    <p class="text-muted mb-0">
+                                        Transactions
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                                <div class="p-4 text-center text-sm-left">
+                                    <h3 class="mb-0">
+                                        <span class="counter" data-from="0" data-to="53" data-speed="3000" data-refresh-interval="200"></span>
+                                        <span class="counter-extra">k</span>
+                                    </h3>
+                                    <p class="text-muted mb-0">
+                                        Users
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                                <div class="p-4 text-center text-sm-left">
+                                    <h3 class="mb-0">
+                                        <span class="counter" data-from="0" data-to="100" data-speed="3000" data-refresh-interval="200"></span>
+                                        <span class="counter-extra">%</span>
+                                    </h3>
+                                    <p class="text-muted mb-0">
+                                        Satisfaction
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slice slice-lg pb-5">
+        <div class="container">
+            <!-- Section title -->
+            <div class="row mb-5 justify-content-center text-center">
+                <div class="col-lg-8 col-md-10">
+                    <h2 class=" mt-4">Our team</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-5">
                     <div data-animate-hover="2">
                         <div class="animate-this">
                             <a href="#">
@@ -260,7 +352,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <div class="col-lg-3 col-sm-6 mb-5">
                     <div data-animate-hover="2">
                         <div class="animate-this">
                             <a href="#">
@@ -273,7 +365,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <div class="col-lg-3 col-sm-6 mb-5">
                     <div data-animate-hover="2">
                         <div class="animate-this">
                             <a href="#">
@@ -286,7 +378,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <div class="col-lg-3 col-sm-6 mb-5">
                     <div data-animate-hover="2">
                         <div class="animate-this">
                             <a href="#">
@@ -300,37 +392,58 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="slice slice-lg" id="sct-form-contact">
-        <div class="container position-relative zindex-100">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-6 text-center">
-                    <h3>Get in Touch</h3>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-5 mb-sm-0">
+                    <div data-animate-hover="2">
+                        <div class="animate-this">
+                            <a href="#">
+                                <img alt="Image placeholder" class="img-fluid rounded shadow" src="../../assets/img/theme/light/person-5.jpg">
+                            </a>
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="h6 mb-0">Danielle Levin</h5>
+                            <p class="text-muted text-sm mb-0">Sales Manager</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <!-- Form -->
-                    <form id="form-contact">
-                        <div class="form-group">
-                            <input class="form-control form-control-lg" type="text" placeholder="Your name" required>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-sm-0">
+                    <div data-animate-hover="2">
+                        <div class="animate-this">
+                            <a href="#">
+                                <img alt="Image placeholder" class="img-fluid rounded shadow" src="../../assets/img/theme/light/person-6.jpg">
+                            </a>
                         </div>
-                        <div class="form-group">
-                            <input class="form-control form-control-lg" type="email" placeholder="email@example.com" required>
+                        <div class="mt-3">
+                            <h5 class="h6 mb-0">Martin Gray</h5>
+                            <p class="text-muted text-sm mb-0">UI/UX Designer</p>
                         </div>
-                        <div class="form-group">
-                            <input class="form-control form-control-lg" type="text" placeholder="Phone number">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-sm-0">
+                    <div data-animate-hover="2">
+                        <div class="animate-this">
+                            <a href="#">
+                                <img alt="Image placeholder" class="img-fluid rounded shadow" src="../../assets/img/theme/light/person-7.jpg">
+                            </a>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control form-control-lg" data-toggle="autosize" placeholder="Tell us a few words ..." rows="3" required></textarea>
+                        <div class="mt-3">
+                            <h5 class="h6 mb-0">George Squier</h5>
+                            <p class="text-muted text-sm mb-0">Marketing Executive</p>
                         </div>
-                        <div class="text-center">
-                            <!-- <div class="g-recaptcha" data-sitekey="6Lfs5ScUAAAAANAJwGrdfvWLFRRiVbKRE2vfoaFj"></div> -->
-                            <button type="reset" class="btn-reset d-none"></button>
-                            <button type="submit" class="btn btn-block btn-lg btn-primary mt-4">Send your message</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-0">
+                    <div data-animate-hover="2">
+                        <div class="animate-this">
+                            <a href="#">
+                                <img alt="Image placeholder" class="img-fluid rounded shadow" src="../../assets/img/theme/light/person-8.jpg">
+                            </a>
                         </div>
-                    </form>
+                        <div class="mt-3">
+                            <h5 class="h6 mb-0">Jesse Stevens</h5>
+                            <p class="text-muted text-sm mb-0">Ads Manager</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -343,7 +456,7 @@
                     <polygon points="2560 0 2560 100 0 100"></polygon>
                 </svg>
             </div>
-            <!-- Footer -->
+            <!--Footer-->
             <div class="container pt-4">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -372,7 +485,7 @@
                 <div class="row">
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <!-- Theme's logo -->
-                        <a href="../../pages/landing/agency.html">
+                        <a href="../../pages/landings/index.html">
                             <img alt="Logo" src="" id="footer-logo">
                         </a>
                         <!-- Our mission -->
@@ -432,7 +545,7 @@
                 <div class="row align-items-center justify-content-md-between pb-4">
                     <div class="col-md-6">
                         <div class="copyright text-sm font-weight-bold text-center text-md-left">
-                            &copy; 2020 <a href="../../pages/landing/agency.html" class="font-weight-bold" target="_blank">Batani LLC</a>. All rights reserved
+                            &copy; 2020 <a href="../../pages/landings/index.html" class="font-weight-bold" target="_blank">Batani LLC</a>. All rights reserved
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -463,12 +576,7 @@
     <script src="../../assets/libs/sticky-kit/dist/sticky-kit.min.js"></script>
     <script src="../../assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <!-- Page JS -->
-    <script src="../../assets/libs/bootstrap-notify/bootstrap-notify.min.js"></script>
-    <script src="../../assets/libs/autosize/dist/autosize.min.js"></script>
-    <!-- Google maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1oALsXLX-XEh2iYbE8tOjxsdFNHE39WM"></script>
-    <!-- Recaptcha -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="../../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
     <!-- Quick JS -->
     <script src="../../assets/js/quick-website.js"></script>
     <!-- Feather Icons -->
