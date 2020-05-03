@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="Batani LLC" content="Symmetric-Dynamite">
+    <title>Employment – Batani</title>
+    <!-- Preloader -->
+    <style>
+        @keyframes hidePreloader {
+            0% {
+                width: 100%;
+                height: 100%;
+            }
+
+            100% {
+                width: 0;
+                height: 0;
+            }
+        }
+
+        body>div.preloader {
+            position: fixed;
+            background: white;
+            width: 100%;
+            height: 100%;
+            z-index: 1071;
+            opacity: 0;
+            transition: opacity .5s ease;
+            overflow: hidden;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body:not(.loaded)>div.preloader {
+            opacity: 1;
+        }
+
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+
+        body.loaded>div.preloader {
+            animation: hidePreloader .5s linear .5s forwards;
+        }
+    </style>
+    <script>
+        window.addEventListener("load", function() {
+            setTimeout(function() {
+                document.querySelector('body').classList.add('loaded');
+            }, 300);
+        });
+    </script>
+    <!-- Favicon -->
+    <link rel="icon" href="" type="image/png"><!-- Font Awesome -->
+    <link rel="stylesheet" href="../../assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- Quick CSS -->
+    <link rel="stylesheet" href="../../assets/css/quick-website.css" id="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header-transparent" id="header-main">
+        <!-- Navbar -->
+        <nav class="navbar navbar-main navbar-expand-lg navbar-dark bg-dark" id="navbar-main">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand" href="../../pages/landing/agency.html">
+                    <img alt="Logo" src="" id="navbar-logo">
+                </a>
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse navbar-collapse-overlay" id="navbar-main-collapse">
+                    <!-- Toggler -->
+                    <div class="position-relative">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <i data-feather="x"></i>
+                        </button>
+                    </div>
+                      <!-- Main navigation -->
+                      <ul class="navbar-nav ml-lg-auto">
+                        <!-- About -->
+                        <li class="nav-item nav-item-spaced d-none d-lg-block">
+                            <a class="nav-link" href="../../pages/secondary/about.html">
+                                About
+                            </a>
+                        </li>
+                        <!-- Search Menu -->
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle="hover">
+                            <a class="nav-link" href="" role="button">Search</a>
+                        <!-- Contact menu -->
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle="hover">
+                            <a class="nav-link" href="../../pages/secondary/contact.html" role="button">Contact</a>
+                              <!-- Careers Menu -->
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle="hover">
+                            <a class="nav-link" href="../../pages/secondary/careers.html" role="button">Careers</a>
+                        <!-- Documents menu -->
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle="hover">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
+                            <div class="dropdown-menu dropdown-menu-md p-0">
+                                <div class="list-group list-group-flush px-lg-4">
+                                    <a href="" class="list-group-item list-group-item-action" role="button">
+                                        <div class="d-flex">
+                                            <!-- SVG icon -->
+                                            <span class="h6">
+                                                <i data-feather="book"></i>
+                                            </span>
+                                            <!-- Media body -->
+                                            <div class="ml-3">
+                                                <h6 class="heading mb-0">Documentation</h6>
+                                                <small class="text-sm">Learn more</small>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="list-group-item list-group-item-action" role="button">
+                                        <div class="d-flex">
+                                            <!-- SVG icon -->
+                                            <span class="h6">
+                                                <i data-feather="code"></i>
+                                            </span>
+                                            <!-- Media body -->
+                                            <div class="ml-3">
+                                                <h6 class="heading mb-0">Components</h6>
+                                                <small class="text-sm">Component examples and more</small>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="list-group-item list-group-item-action" role="button">
+                                        <div class="d-flex">
+                                            <!-- SVG icon -->
+                                            <span class="h6">
+                                                <i data-feather="file-text"></i>
+                                            </span>
+                                            <!-- Media body -->
+                                            <div class="ml-3">
+                                                <h6 class="heading mb-0">Changelog</h6>
+                                                <small class="text-sm">Component examples and more</small>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Right navigation -->
+                    <ul class="navbar-nav align-items-lg-center d-none d-lg-flex ml-lg-auto">
+                        <!-- Auth -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../pages/authentication/login.html">
+                                Sign in
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../../pages/authentication/register.html" class="btn btn-sm btn-primary btn-icon ml-3" target="_blank">
+                                <span class="btn-inner--icon"><i class="far fa-user"></i></span>
+                                <span class="btn-inner--text">Register</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Mobile button -->
+                    <div class="d-lg-none px-4 text-center">
+                        <a href="" class="btn btn-block btn-sm btn-primary" target="_blank">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <section class="slice pt-9 pb-7 bg-dark">
+        <!-- Background image -->
+        <img src="../../assets/img/backgrounds/img-1.jpg" alt="Image" class="img-as-bg blend-mode--multiply">
+        <!-- Container -->
+        <div data-offset-top="#navbar-main">
+            <div class="container d-flex align-items-center text-center text-lg-left">
+                <div class="col px-0">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center">
+                            <!-- Title -->
+                            <h2 class="h1 text-white mb-2">Senior Back End Developer</h2>
+                            <h6 class="font-weight-light text-white opacity-8">Menlo Park, CA</h6>
+                            <!-- Tags -->
+                            <div class="my-3">
+                                <span class="badge badge-primary">Programming</span>
+                                <span class="badge badge-primary">Golang</span>
+                            </div>
+                            <!-- Criterias -->
+                            <div class="row mt-5">
+                                <div class="col-sm-4">
+                                    <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                                        <div class="p-4 text-center">
+                                            <p class="text-muted mb-2">
+                                                Experience
+                                            </p>
+                                            <h5 class="mb-0">5-6</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                                        <div class="p-4 text-center">
+                                            <p class="text-muted mb-2">
+                                                Seniority level
+                                            </p>
+                                            <h5 class="mb-0">Expert Level</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                                        <div class="p-4 text-center">
+                                            <p class="text-muted mb-2">
+                                                Employment type
+                                            </p>
+                                            <h5 class="mb-0">Full-time</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slice slice-lg">
+        <div class="container">
+            <div class="row justify-content-between mb-5">
+                <div class="col-lg-3 text-lg-right">
+                    <h4 class="mb-4">Your role at Batani LLC</h4>
+                </div>
+                <div class="col-lg-8">
+                    <p>
+                        We are looking for developers who are really passionate about coding, and who are familiar with public blockchains. 
+                        We use Algorand to power our platform, so any previous experience with Algorand will be helpful. 
+                    <p>
+                        We want developers who are interested in theory. 
+                        So if your typical schedule is to eat, sleep and code, and you intravenously refuel yourself with latte's then we have a place for you at Batani! 
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-between mb-5">
+                <div class="col-lg-3 text-lg-right">
+                    <h4 class="mb-4">Responsibilities</h4>
+                </div>
+                <div class="col-lg-8">
+                    <ul class="list-unstyled list-bullet">
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            Server Side Application
+                        </li>
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            Brainstorming, and applying new innovative features
+                        </li>
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            Supervising back-end development team
+                        </li>
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            Collaborating with department leaders
+                        </li>
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            Implementing best practices, and staying abreast of industry trends.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-between mb-5">
+                <div class="col-lg-3 text-lg-right">
+                    <h4 class="mb-4">Requirements</h4>
+                </div>
+                <div class="col-lg-8">
+                    <ul class="list-unstyled list-bullet">
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            Experience with Algorand or other public blockchains.
+                        </li>
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            5-6 years of back-end experience in Python or Golang. 
+                        </li>
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            1-2 years of experience with HTML, CSS, and JS. 
+                        </li>
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            Problem Solving Skills.
+                        </li>
+                        <li class="py-2">
+                            <span class="badge badge-circle badge-soft-success mr-2"><i data-feather="check"></i></span>
+                            Passionate about coding. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-between mb-5">
+                <div class="col-lg-3 text-lg-right">
+                    <h4 class="mb-4">Oue values</h4>
+                </div>
+                <div class="col-lg-8">
+                    <h6>Team work</h6>
+                    <p>
+                        Building an application of this size, with this complexity, requires a variety of skill-sets. We value hard work, intelligence, and creativity, but we also value 
+                        people who are willing and able to work with others. 
+                    </p>
+                    <h6 class="mt-5">Entrepreneurial Spirit</h6>
+                    <p>
+                         It is not easy to disrupt a multi billion dollar industry. Working at Batani is NOT a 9 to 5 job.
+                         If you have a desire to be on the front-lines of technology, and want to be a part of something special, then we'd love to hear from you.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-lg-3 text-lg-right">
+                    <h4 class="mb-4">Apply</h4>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card mb-0">
+                        <div class="card-body p-lg-5">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label">First name</label>
+                                            <input class="form-control" type="text" placeholder="Enter your first name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label">Last name</label>
+                                            <input class="form-control" type="text" placeholder="Also your last name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label">Email</label>
+                                            <input class="form-control" type="text" placeholder="Address, Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label">Online resume</label>
+                                            <input class="form-control" type="text" placeholder="Linkedin username">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label">Resume/CV</label>
+                                            <div>
+                                                <input type="file" name="file-1[]" id="file-1" class="custom-input-file custom-input-file-link" data-multiple-caption="{count} files selected">
+                                                <label for="file-1">
+                                                    <span class="">Attach your file</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label">Cover letter</label>
+                                            <div>
+                                                <input type="file" name="file-1[]" id="file-2" class="custom-input-file custom-input-file-link" data-multiple-caption="{count} files selected">
+                                                <label for="file-2">
+                                                    <span class="">Attach your file</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" placeholder="Where do you see yourself in years?" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <button type="button" class="btn btn-primary">Submit your application</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="position-relative" id="footer-main">
+        <div class="footer pt-lg-7 footer-dark bg-dark">
+            <!-- SVG shape -->
+            <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
+                <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class="">
+                    <polygon points="2560 0 2560 100 0 100"></polygon>
+                </svg>
+            </div>
+            <!--Footer-->
+            <div class="container pt-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7">
+                                <h3 class="text-secondary mb-2">Embrace the blockchain revolution</h3>
+                                <p class="lead mb-0 text-white opacity-8">
+                                    Blockchain has the power to decentralize industries. No more middlemen. No more hidden costs. Join our seminars and read our documentation to learn more!
+                                </p>
+                            </div>
+                            <div class="col-lg-5 text-lg-right mt-4 mt-lg-0">
+                                <a href="" class="btn btn-white btn-icon my-2" target="_blank">
+                                    <span class="btn-inner--icon">
+                                        <i data-feather="book" class="text-primary"></i>
+                                    </span>
+                                    <span class="btn-inner--text">Documentation</span>
+                                </a>
+                                <a href="" class="btn btn-primary my-2 ml-0 ml-sm-3" target="_blank">
+                                    Seminar Dates
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider divider-fade divider-dark my-5">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <!-- Theme's logo -->
+                        <a href="../../pages/landing/agency.html">
+                            <img alt="Logo" src="" id="footer-logo">
+                        </a>
+                        <!-- Our mission -->
+                        <p class="mt-4 text-sm opacity-8 pr-lg-4">Batani LLC is a Blockchain Startup based out of San Francisco, California.</p>
+                        <!-- Social -->
+                        <ul class="nav mt-4">
+                            <li class="nav-item">
+                                <a class="nav-link pl-0" href="" target="_blank">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
+                        <h6 class="heading mb-3">Account</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Billing</a></li>
+                            <li><a href="#">Notifications</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+                        <h6 class="heading mb-3">About</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+                        <h6 class="heading mb-3">Company</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="divider divider-fade divider-dark my-4">
+                <div class="row align-items-center justify-content-md-between pb-4">
+                    <div class="col-md-6">
+                        <div class="copyright text-sm font-weight-bold text-center text-md-left">
+                            &copy; 2020 <a href="../../pages/landing/agency.html" class="font-weight-bold" target="_blank">Batani LLC</a>. All rights reserved
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../pages/utility/terms.html">
+                                    Terms
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Core JS  -->
+    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/libs/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="../../assets/libs/feather-icons/dist/feather.min.js"></script>
+    <!-- Optional JS -->
+    <script src="../../assets/libs/in-view/dist/in-view.min.js"></script>
+    <script src="../../assets/libs/sticky-kit/dist/sticky-kit.min.js"></script>
+    <script src="../../assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <!-- Page JS -->
+    <script src="../../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <!-- Quick JS -->
+    <script src="../../assets/js/quick-website.js"></script>
+    <!-- Feather Icons -->
+    <script>
+        feather.replace({
+            'width': '1em',
+            'height': '1em'
+        })
+    </script>
+</body>
+</html>
