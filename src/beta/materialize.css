@@ -1,0 +1,47 @@
+
+form {
+    width: 58%;
+    float: right; 
+}
+
+.brand-logo { 
+    margin-left: 2rem;
+
+}
+
+#map { 
+    min-height: 1000px !important; 
+    height: 100%; 
+    
+}
+
+#search {
+    background-color: white;
+}
+
+.page-footer {
+    background-color: #008aff;
+}
+
+.nav-wrapper {
+    background-color: #008aff;
+}
+
+.overflow1 { 
+    max-height: 1000px !important; 
+    overflow: scroll;
+}
+@media (max-width: 1050px) {
+    #hidemenav {
+    visibility:hidden;
+    }
+    }
+
+.superman {
+    color: white !important; 
+}
+    
+.cardpadding { 
+    margin-left: 2rem; 
+    margin-right: 2rem; 
+}

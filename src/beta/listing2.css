@@ -1,0 +1,99 @@
+.cardsize {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    background-color: lightyellow;
+    width: 50%;
+}
+
+.checkbox-indigo[type="checkbox"] + span:before{
+    border: 2px solid #0d47a1;
+    background: transparent;
+  }
+
+  .checkbox-indigo[type="checkbox"]:checked + span:before{
+    border: 2px solid transparent;
+    border-bottom: 2px solid #0d47a1;
+    border-right: 2px solid #0d47a1;
+    background: transparent;
+  }
+
+.fixmargin {
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+.fixmargin1 {
+    margin-left: 4rem;
+    margin-top: 5rem; 
+}
+
+nav { 
+    background-color: #0275d8;
+}
+
+.page-footer {
+    background-color: #0275d8;
+}
+
+.fixpad { 
+    margin-left: 5rem;
+}
+
+.buttoncenterrow {
+    display: grid; 
+    justify-content: center; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.rowcheckbox {
+    margin-top: 5rem; 
+    margin-bottom: 5rem;
+
+}
+.picturedrop {
+    margin-top: 5rem; 
+    margin-bottom: 5rem; 
+}
+
+#drop-area {
+    border: 2px dashed #0d47a1;
+    border-radius: 20px;
+    width: 480px;
+    font-family: sans-serif;
+    margin-left: 5rem; 
+    padding: 20px;
+  }
+  #drop-area.highlight {
+    border-color: purple;
+  }
+  p {
+    margin-top: 0;
+  }
+  .my-form {
+    margin-bottom: 10px;
+  }
+  #gallery {
+    margin-top: 10px;
+  }
+  #gallery img {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px;
+    background: #0275d8;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #0275d8;
+    color: white; 
+  }
+  .button:hover {
+    background: darkblue;
+  }
+  #fileElem {
+    display: none;
+  }

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="materialize.css">    
+  
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" id="hidemenav" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <a class="btn-floating btn-large waves-effect waves-light blue darken-4"><i class="material-icons">add</i></a>
+        <li><a href="">Login</a></li>
+        <li><a href="">Register</a></li>
+      </ul>
+          <form>
+            <div class="input-field">
+              <input id="search_input" type="search" placeholder="Type address..." required/>
+              <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+        </div>
+      </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="">Register</a></li>
+      </ul>
+      
+    
+      <div class="row">
+        <div class="col l5 s12 m12 overflow1">
+          <div class="card z-depth-2 cardpadding">
+            <div class="card-image">
+              <img src="house1.jpeg">
+              <span class="card-title red">$5000</span>
+            </div>
+            <div class="card-content">
+              <h5 style="font-weight: 600;">Patty's Place</h5>
+              <span>5th avenue New York, NY</span>
+            </div>
+            <div class="card-action black text-white">
+              <a class="superman" href="#">5 Beds</a>
+              <a class="superman" href="#">3 Baths</a>
+              <a class="superman" href="#">1000 SQMT</a>
+
+            </div>
+          </div>
+          <div class="card z-depth-2 cardpadding">
+            <div class="card-image">
+              <img src="house1.jpeg">
+              <span class="card-title red">$5000</span>
+            </div>
+            <div class="card-content">
+              <h5 style="font-weight: 600;">Patty's Place</h5>
+              <span>5th avenue New York, NY</span>
+            </div>
+            <div class="card-action black text-white">
+              <a class="superman" href="#">5 Beds</a>
+              <a class="superman" href="#">3 Baths</a>
+              <a class="superman" href="#">1000 SQMT</a>
+
+            </div>
+          </div>
+          <div class="card z-depth-2 cardpadding">
+            <div class="card-image">
+              <img src="house1.jpeg">
+              <span class="card-title red">$5000</span>
+            </div>
+            <div class="card-content">
+              <h5 style="font-weight: 600;">Patty's Place</h5>
+              <span>5th avenue New York, NY</span>
+            </div>
+            <div class="card-action black text-white">
+              <a class="superman" href="#">5 Beds</a>
+              <a class="superman" href="#">3 Baths</a>
+              <a class="superman" href="#">1000 SQMT</a>
+
+            </div>
+          </div>
+            <div class="card z-depth-2 cardpadding">
+            <div class="card-image">
+              <img src="house1.jpeg">
+              <span class="card-title red">$5000</span>
+            </div>
+            <div class="card-content">
+              <h5 style="font-weight: 600;">Patty's Place</h5>
+              <span>5th avenue New York, NY</span>
+            </div>
+            <div class="card-action black text-white">
+              <a class="superman" href="#">5 Beds</a>
+              <a class="superman" href="#">3 Baths</a>
+              <a class="superman" href="#">1000 SQMT</a>
+
+            </div>
+          </div>
+
+
+
+
+        </div>
+      
+
+        <div class="col l7 s12 m12 ">
+            <div id="map"></div>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      <!--footer-->
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Embrace the Blockchain Revolution</h5>
+              <p class="grey-text text-lighten-4">Blockchain has the power to decentralize industries. No more middlemen. No more hidden costs. Join our seminars and read our documentation to learn more!</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Learn More</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Documentation</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Seminars</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Batani LLC
+          <a class="grey-text text-lighten-4 right" href="#!">Contact</a>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+   <script>
+     
+     var map;
+      var service;
+      var infowindow;
+
+     
+
+    function activatePlacesSearch() { 
+      var input = document.getElementById('search_input');
+      var autocomplete = new google.maps.places.Autocomplete(input);  
+    };
+  </script>
+
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApzWrEKIuUc_UV-KzF-FEzaoXETijM_Pw&libraries=places&callback=initialize" async defer></script>
+ 
+  </body>
+
+<script>
+
+function initialize() {
+  initMap();
+  activatePlacesSearch();
+  findPlaceFromQuery();
+}
+var map;
+var service;
+var infowindow;
+
+function initMap() {
+  var sydney = new google.maps.LatLng(-33.867, 151.195);
+
+  infowindow = new google.maps.InfoWindow();
+
+  map = new google.maps.Map(
+      document.getElementById('map'), {center: sydney, zoom: 15});
+
+  var request = {
+    query: 'Museum of Contemporary Art Australia',
+    fields: ['name', 'geometry'],
+  };
+
+  var service = new google.maps.places.PlacesService(map);
+
+  service.findPlaceFromQuery(request, function(results, status) {
+    if (status === google.maps.places.PlacesServiceStatus.OK) {
+      for (var i = 0; i < results.length; i++) {
+        createMarker(results[i]);
+      }
+      map.setCenter(results[0].geometry.location);
+    }
+  });
+}
+
+
+  
+ 
+  document.getElementById("overflow1").style.overflow = "scroll";
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+
+
+</script>
+
+  
+  
+
+
+</html>

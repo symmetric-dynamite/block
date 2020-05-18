@@ -1,0 +1,179 @@
+nav { 
+    background-color: #0275d8;
+}
+
+.brand-logo {
+    margin-left: 2rem;
+}
+.page-footer { 
+   margin-top: 5rem; 
+}
+.container { 
+    margin-top: 5rem;  
+}
+.imagelisting0 { 
+  margin-right: 5rem; 
+  margin-top: 4rem;
+}
+.imagelisting { 
+    margin-left: 5rem; 
+    margin-top: 3rem; 
+}
+.page-footer {
+    background-color: #0275d8;
+}
+
+.row4 {
+    display: grid; 
+    justify-content: center; 
+    margin-top: 3rem;
+}
+
+.row5 {
+   text-align: center;
+   margin-top: 8rem;
+   margin-bottom: 8rem;
+}
+
+blockquote { 
+   border-left-color: black;
+}
+
+.buttoncolor {
+    background-color: #0275d8;
+}
+
+.row1 {
+    margin-top: 5rem;
+}
+
+.row .input-field input {
+     padding-top: 2rem; 
+     
+}
+
+.row .validate1 { 
+    font-weight: bold; 
+    font-size: 3rem; 
+}  
+
+  .greenprice  {
+    font-weight: bold; 
+    font-size: 3rem;
+  }
+
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #0275d8;
+  }
+
+
+  .input-field .prefix { 
+      padding-top: 2rem;
+  }
+ 
+  .row .input-field input:focus {
+    border-bottom: 1px solid #0275d8 !important;
+    box-shadow: 0 1px 0 0 #0275d8 !important; 
+    color: #0275d8;
+    font-size: 3rem;
+    padding-bottom: 25px;
+  }
+
+.buttoncolor:hover { 
+    background-color: darkblue;
+    color: white; 
+}
+
+input[type="text"].validate1::-webkit-input-placeholder { /* Edge */
+    font-size: 3rem;
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+  }
+  
+  input[type="text"].validate1:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 3rem;
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+  }
+  
+  input[type="text"].validate1::placeholder {
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+  }
+
+  input[type="text"].validate2::placeholder {
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+  input[type="text"].validate2::-webkit-input-placeholder { /* Edge */
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+  
+  input[type="text"].validate2:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+
+  input[type="text"].validate3::placeholder {
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+  input[type="text"].validate3::-webkit-input-placeholder { /* Edge */
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+  
+  input[type="text"].validate3:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+
+  .input-field .validate4::placeholder {
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+  .input-field .validate4::-webkit-input-placeholder { /* Edge */
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+  
+  .input-field .validate4:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-weight: bold;
+    opacity: 0.3;
+    color: #0275d8;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
