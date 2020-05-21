@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="materialize.css">    
-  
-    
+    <link rel="stylesheet" href="materialize.css">
+
+
 </head>
 <body>
     <nav>
@@ -36,10 +36,11 @@
         <li><a href="">Login</a></li>
         <li><a href="">Register</a></li>
       </ul>
-      
-    
+
+
       <div class="row">
         <div class="col l5 s12 m12 overflow1">
+          <a href="realestatepage.html">
           <div class="card z-depth-2 cardpadding">
             <div class="card-image">
               <img src="house1.jpeg">
@@ -56,6 +57,8 @@
 
             </div>
           </div>
+          </a>
+            <a href="realestatepage.html">
           <div class="card z-depth-2 cardpadding">
             <div class="card-image">
               <img src="house1.jpeg">
@@ -72,6 +75,8 @@
 
             </div>
           </div>
+            </a>
+            <a href="realestatepage.html">
           <div class="card z-depth-2 cardpadding">
             <div class="card-image">
               <img src="house1.jpeg">
@@ -88,6 +93,8 @@
 
             </div>
           </div>
+        </a>
+        <a href="realestatepage.html">
             <div class="card z-depth-2 cardpadding">
             <div class="card-image">
               <img src="house1.jpeg">
@@ -104,21 +111,21 @@
 
             </div>
           </div>
-
+        </a>
 
 
 
         </div>
-      
+
 
         <div class="col l7 s12 m12 ">
             <div id="map"></div>
-           
+
         </div>
       </div>
     </div>
   </div>
-  
+
       <!--footer-->
       <footer class="page-footer">
         <div class="container">
@@ -147,23 +154,23 @@
       </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
+
    <script>
-     
+
      var map;
       var service;
       var infowindow;
 
-     
 
-    function activatePlacesSearch() { 
+
+    function activatePlacesSearch() {
       var input = document.getElementById('search_input');
-      var autocomplete = new google.maps.places.Autocomplete(input);  
+      var autocomplete = new google.maps.places.Autocomplete(input);
     };
   </script>
 
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApzWrEKIuUc_UV-KzF-FEzaoXETijM_Pw&libraries=places&callback=initialize" async defer></script>
- 
+
   </body>
 
 <script>
@@ -203,8 +210,8 @@ function initMap() {
 }
 
 
-  
- 
+
+
   document.getElementById("overflow1").style.overflow = "scroll";
 
   $(document).ready(function(){
@@ -215,8 +222,8 @@ function initMap() {
 
 </script>
 
-  
-  
+
+
 
 
 </html>
