@@ -2,31 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/></head>
-    <title></title>
-    <link rel="stylesheet" href="OwlCarousel2-2.3.4\OwlCarousel2-2.3.4\dist\assets\owl.carousel.css">
-    <link rel="stylesheet" href="OwlCarousel2-2.3.4\OwlCarousel2-2.3.4\dist\assets\owl.theme.default.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="realestatepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-<style>
-*{
-  margin: 0;
-  padding: 0;
-}
-
-.img-fluid {
-max-width: 100%;
-height: 225px;
-display: block;
-}
-
-</style>
-  </head>
+    <link rel="stylesheet" href="realestatepage.css">
+</head>
   <body>
-<!-- NOTE: navbar -->
 
+<!-- NOTE: navbar -->
   <nav>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">Logo</a>
@@ -38,24 +22,14 @@ display: block;
   </nav>
 
 
-    <!-- NOTE: owltheme -->
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-          <img src="picreal1.jpg" alt="" class="img-fluid materialboxed">
-        </div>
-        <div class="item">
-          <img src="picreal3.jpg" alt="" class="img-fluid materialboxed">
-        </div>
-        <div class="item">
-          <img src="picreal4.jpg" alt="" class="img-fluid materialboxed">
-        </div>
-        <div class="item">
-          <img src="picreal5.jpg" alt="" class="img-fluid materialboxed">
-        </div>
-        <div class="item">
-          <img src="pic2.jpg" alt="" class="img-fluid materialboxed">
-        </div>
+    <!-- NOTE: tinyslider -->
 
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="picreal1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="picreal3.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="picreal4.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="picreal5.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="pic2.jpg"></a>
     </div>
 
 <!-- NOTE: main -->
@@ -323,36 +297,14 @@ display: block;
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+       $('.carousel').carousel();
+     });
+    </script>
 
 
-
-
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="OwlCarousel2-2.3.4\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
-<script src="OwlCarousel2-2.3.4\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
   </body>
-
-<script>
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-
-</script>
 </html>
