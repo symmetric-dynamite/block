@@ -1,0 +1,75 @@
+nav {
+background-color: #0275d8;
+}
+
+.iconblock {
+  margin-top: 4rem;
+  color: black;
+}
+
+.iconspan {
+  margin-left: 1rem;
+}
+.descriptionblock {
+  margin-top: 6rem;
+
+}
+
+.checkedrow {
+padding-top: 2rem;
+}
+
+
+.page-footer {
+background-color: #0275d8;
+}
+
+.checkbox-indigo[type="checkbox"]:checked + span:before{
+  border: 2px solid transparent;
+  border-bottom: 2px solid #6699cc;
+  border-right: 2px solid #6699cc;
+  background: transparent;
+}
+
+.changecolorspan {
+  color: #6699cc;
+}
+
+.amen {
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  color: #6699cc;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.titlecolor {
+   background-color: #dccfec;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.trendsrow {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: lightyellow;
+}
+
+
+.buttonrowmiddle {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.descriptioncolor {
+   background-color: lightgreen;
+   text-align: center;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   margin-bottom: 4rem;
+   margin-top: 4rem;
+}
